@@ -31,7 +31,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: Row(
+        body: Column(
           children: const [
             ExmapleDragTarget(),
           ],

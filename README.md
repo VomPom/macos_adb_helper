@@ -1,16 +1,21 @@
 # macos_adb_helper
 
-A new Flutter project.
+MacOs桌面端，adb push小工具，拖动到工具区域实现发送文件到 Android 手机。
 
-## Getting Started
+## 原理
 
-This project is a starting point for a Flutter application.
+step 1: 桌面工具获取到目标文件列表
 
-A few resources to get you started if this is your first Flutter project:
+step 2: 包装 adb push 命令并执行
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Demo
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![example.gif](./.images/example.gif)
+
+## 运行
+
+MacOs环境
+
+`cd macos_adb_helper`
+
+`flutter run -d macos`
